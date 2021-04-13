@@ -38,8 +38,8 @@
 <distributionManagement>
    <repository>
      <id>github</id>
-     <name>GitHub lcastils Apache Maven Packages</name>
-     <url>https://maven.pkg.github.com/lcastils/monitoreo-domain</url>
+     <name>GitHub eespinozah Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/eespinozah/monitoreo-domain</url>
    </repository>
 </distributionManagement>
 
