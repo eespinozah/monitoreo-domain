@@ -1,12 +1,14 @@
-package com.mrisk.monitoreo.domain.rule;
+package com.mrisk.monitoreo.rule.domain;
+
 
 import java.util.Calendar;
 
 import lombok.Data;
 
 @Data
-public class Component {
-    private Integer compId;
+public class ParameterUnit {
+
+    private Integer unitId;
     private String name;
     private String description;
 
@@ -15,5 +17,4 @@ public class Component {
     private Calendar creationTime = Calendar.getInstance();
     private Calendar modificationTime;
     private Calendar destructionTime;
-
 }

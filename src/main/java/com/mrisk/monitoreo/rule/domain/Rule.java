@@ -1,4 +1,5 @@
-package com.mrisk.monitoreo.domain.rule;
+package com.mrisk.monitoreo.rule.domain;
+
 
 import java.util.Calendar;
 
@@ -19,8 +20,6 @@ public class Rule {
     private Boolean legal;
     private Integer typeId;
 
-    
-    
     private Integer tenaId;
     private Boolean alive = Boolean.TRUE;
     private Calendar creationTime = Calendar.getInstance();
