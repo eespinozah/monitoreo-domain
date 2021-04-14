@@ -1,4 +1,4 @@
-package com.mrisk.monitoreo.domain.point;
+package com.mrisk.monitoreo.point.domain;
 
 import lombok.Getter;
 import lombok.Setter;

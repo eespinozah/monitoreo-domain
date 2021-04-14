@@ -1,12 +1,13 @@
-package com.mrisk.monitoreo.domain.point;
+package com.mrisk.monitoreo.point.domain;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class Document {
-
+public class Location {
+	
 	private Long id;
 	private String name;
+	
 }

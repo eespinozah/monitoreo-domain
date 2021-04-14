@@ -1,4 +1,4 @@
-package com.mrisk.monitoreo.domain.point;
+package com.mrisk.monitoreo.point.domain;
 
 import java.util.Calendar;
 
@@ -25,7 +25,7 @@ public class Point {
     private String name;
     private String nameInternal;
     private String description;
-    private Double coordinateX;
-    private Double coordinateY;
+    private Double latitude;
+    private Double longitude;
     private String datum;
 }
