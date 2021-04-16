@@ -11,10 +11,18 @@ public class SubComponent {
     private String name;
     private String description;
 
-    private Integer tenaId;
     private Boolean alive = Boolean.TRUE;
     private Calendar creationTime = Calendar.getInstance();
     private Calendar modificationTime;
     private Calendar destructionTime;
+    
+    public void setCsubId(Integer csubId) {
+        if(csubId == 0) {
+            this.csubId = null ; 
+        }
+        else {
+            this.csubId = csubId; 
+        }
+    }
 
 }

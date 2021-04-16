@@ -12,7 +12,6 @@ public class Component {
     private String name;
     private String description;
 
-    private Integer tenaId;
     private Boolean alive = Boolean.TRUE;
     private Calendar creationTime = Calendar.getInstance();
     private Calendar modificationTime;

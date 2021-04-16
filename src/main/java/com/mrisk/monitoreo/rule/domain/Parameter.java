@@ -20,7 +20,7 @@ public class Parameter {
     private String name;
     private String symbol;
     private String unit;
-    private boolean isDiscreet;
+    private boolean discrete;
     
     private Integer tenaId;
     private Boolean alive = Boolean.TRUE;
